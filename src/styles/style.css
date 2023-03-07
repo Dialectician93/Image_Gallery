@@ -1,0 +1,29 @@
+img{
+    width: 250px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem;
+    justify-content: space-between;
+}
+img:hover{
+    transform: scale(1.25);
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+p{
+    color: rgb(99, 99, 240);
+    font-size: 1.2rem;
+    text-align: center;
+}
+.container{
+    height: 30vh;
+    overflow: hidden;
+}
